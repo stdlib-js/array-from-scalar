@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import scalar2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-from-scalar@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-from-scalar/tags). For example,
+
+```javascript
 import scalar2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-from-scalar@v0.1.0-deno/mod.js';
 ```
 
@@ -105,7 +110,7 @@ var x = scalar2array( 3.0, 'float32' );
 
 ```javascript
 import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@deno/mod.js';
-import array2scalar from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-from-scalar@v0.1.0-deno/mod.js';
+import array2scalar from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-from-scalar@deno/mod.js';
 
 var x = array2scalar( 3.0 );
 // returns <Float64Array>[ 3.0 ]
