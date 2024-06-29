@@ -45,14 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-from-scalar
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import scalar2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-from-scalar@deno/mod.js';
+var scalar2array = require( '@stdlib/array-from-scalar' );
 ```
 
 #### scalar2array( value\[, dtype] )
@@ -66,7 +84,8 @@ var x = scalar2array( 3.0 );
 
 If not provided a `dtype` argument and `value`
 
--   is a `number`, the default [data type][@stdlib/array/dtypes] is the [default][@stdlib/array/defaults] real-valued floating-point data type.
+-   is a number, the default [data type][@stdlib/array/dtypes] is the [default][@stdlib/array/defaults] real-valued floating-point data type.
+-   is a boolean, the default [data type][@stdlib/array/dtypes] is the [default][@stdlib/array/defaults] boolean data type.
 -   is a complex number object of a known data type, the data type is the same as the provided value.
 -   is a complex number object of an unknown data type, the default [data type][@stdlib/array/dtypes] is the [default][@stdlib/array/defaults] complex-valued floating-point data type.
 -   is any other value type, the default [data type][@stdlib/array/dtypes] is `'generic'`.
@@ -104,8 +123,8 @@ var x = scalar2array( 3.0, 'float32' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-ctor@deno/mod.js';
-import array2scalar from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-from-scalar@deno/mod.js';
+var Complex128 = require( '@stdlib/complex-float64-ctor' );
+var array2scalar = require( '@stdlib/array-from-scalar' );
 
 var x = array2scalar( 3.0 );
 // returns <Float64Array>[ 3.0 ]
@@ -155,7 +174,7 @@ x = array2scalar( {} );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -218,13 +237,13 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-from-scalar/main/LICENSE
 
-[@stdlib/array/dtypes]: https://github.com/stdlib-js/array-dtypes/tree/deno
+[@stdlib/array/dtypes]: https://github.com/stdlib-js/array-dtypes
 
-[@stdlib/array/defaults]: https://github.com/stdlib-js/array-defaults/tree/deno
+[@stdlib/array/defaults]: https://github.com/stdlib-js/array-defaults
 
 <!-- <related-links> -->
 
-[@stdlib/array/from-iterator]: https://github.com/stdlib-js/array-from-iterator/tree/deno
+[@stdlib/array/from-iterator]: https://github.com/stdlib-js/array-from-iterator
 
 <!-- </related-links> -->
 
