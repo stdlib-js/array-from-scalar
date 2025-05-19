@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-28)
+## Unreleased (2025-05-19)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`b6b1bb1`](https://github.com/stdlib-js/stdlib/commit/b6b1bb1cac8664502e870976f41dc3d1143e229c) - **refactor:** update import paths _(by Athan Reines)_
 -   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
 -   [`3a3116e`](https://github.com/stdlib-js/stdlib/commit/3a3116e3ff5bef42e4b4f39e5375b89a877ccff0) - **feat:** add boolean dtype support to `array/from-scalar` [(#2470)](https://github.com/stdlib-js/stdlib/pull/2470) _(by Jaysukh Makvana, Athan Reines)_
 -   [`75d4f83`](https://github.com/stdlib-js/stdlib/commit/75d4f83cb85610d23a04dc21a03f8075f6d3665f) - **refactor:** update require and include paths _(by Athan Reines)_
