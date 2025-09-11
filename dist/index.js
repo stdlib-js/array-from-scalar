@@ -1,5 +1,0 @@
-"use strict";var l=function(r,i){return function(){return i||r((i={exports:{}}).exports,i),i.exports}};var u=l(function(T,v){
-var n=require('@stdlib/array-base-assert-is-complex-floating-point-data-type/dist'),f=require('@stdlib/assert-is-number/dist').isPrimitive,p=require('@stdlib/assert-is-complex-like/dist'),q=require('@stdlib/assert-is-boolean/dist').isPrimitive,c=require('@stdlib/array-base-assert-is-accessor-array/dist'),g=require('@stdlib/array-base-accessor-setter/dist'),m=require('@stdlib/array-base-setter/dist'),y=require('@stdlib/array-zeros/dist'),L=require('@stdlib/complex-dtype/dist'),o=require('@stdlib/array-defaults/dist'),_=o.get("dtypes.real_floating_point"),d=o.get("dtypes.complex_floating_point"),A=o.get("dtypes.boolean");function x(r){var i,s,t,e,a;return i=f(r),arguments.length<2?i?e=_:q(r)?e=A:p(r)?(e=L(r),e===null&&(e=d)):e="generic":e=arguments[1],s=y(1,e),i&&n(e)?a=[r,0]:a=r,c(s)?t=g(e):t=m(e),t(s,0,a),s}v.exports=x
-});var D=u();module.exports=D;
-/** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
