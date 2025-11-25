@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-11)
+## Unreleased (2025-11-25)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`47088cc`](https://github.com/stdlib-js/stdlib/commit/47088cc299d84289a904dd2e7d2cdf0aee9057aa) - **docs:** fix TSDoc comments example code and return annotation values _(by Philipp Burckhardt)_
 -   [`7808da1`](https://github.com/stdlib-js/stdlib/commit/7808da1fbe8e2100ba60704afee2636fa9d5f091) - **docs:** add missing quote and replace incorrect closing curly braces _(by Philipp Burckhardt)_
 -   [`3b9d924`](https://github.com/stdlib-js/stdlib/commit/3b9d92469dabccb5e006dc55086752b5cdfbc7ed) - **docs:** add missing quotes _(by Philipp Burckhardt)_
 -   [`5acfd64`](https://github.com/stdlib-js/stdlib/commit/5acfd64326637640433a7e3ffc5d101db23ab1d8) - **docs:** fix example code _(by Philipp Burckhardt)_
