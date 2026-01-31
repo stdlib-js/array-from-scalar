@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import scalar2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-from-scalar@deno/mod.js';
+import scalar2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-from-scalar@v0.3.0-deno/mod.js';
 ```
 
 #### scalar2array( value\[, dtype] )
@@ -106,7 +106,7 @@ var x = scalar2array( 3.0, 'float32' );
 
 ```javascript
 import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-ctor@deno/mod.js';
-import array2scalar from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-from-scalar@deno/mod.js';
+import array2scalar from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-from-scalar@v0.3.0-deno/mod.js';
 
 var x = array2scalar( 3.0 );
 // returns <Float64Array>[ 3.0 ]
