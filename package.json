@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-from-scalar",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Create a single-element array containing a provided scalar value.",
   "license": "Apache-2.0",
   "author": {
@@ -41,7 +41,7 @@
     "@stdlib/array-base-assert-is-accessor-array": "^0.2.2",
     "@stdlib/array-base-assert-is-complex-floating-point-data-type": "^0.2.1",
     "@stdlib/array-base-setter": "^0.2.2",
-    "@stdlib/array-defaults": "^0.3.0",
+    "@stdlib/array-defaults": "^0.4.0",
     "@stdlib/array-zeros": "^0.2.2",
     "@stdlib/assert-is-boolean": "^0.2.2",
     "@stdlib/assert-is-complex-like": "^0.2.2",
@@ -65,8 +65,8 @@
     "@stdlib/assert-is-same-float32array": "^0.2.2",
     "@stdlib/assert-is-same-float64array": "^0.2.2",
     "@stdlib/complex-cmplx": "^0.2.2",
-    "@stdlib/complex-float32-ctor": "^0.0.2",
-    "@stdlib/complex-float64-ctor": "^0.0.3",
+    "@stdlib/complex-float32-ctor": "^0.1.0",
+    "@stdlib/complex-float64-ctor": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
