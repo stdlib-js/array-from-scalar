@@ -42,7 +42,7 @@
     "@stdlib/array-base-assert-is-complex-floating-point-data-type": "^0.2.2",
     "@stdlib/array-base-setter": "^0.2.3",
     "@stdlib/array-defaults": "^0.4.1",
-    "@stdlib/array-zeros": "^0.2.3",
+    "@stdlib/array-empty": "^0.3.1",
     "@stdlib/assert-is-boolean": "^0.2.3",
     "@stdlib/assert-is-complex-like": "^0.2.4",
     "@stdlib/assert-is-number": "^0.2.3",
