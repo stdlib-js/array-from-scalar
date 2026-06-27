@@ -47,7 +47,7 @@
     "@stdlib/assert-is-complex-like": "^0.2.4",
     "@stdlib/assert-is-number": "^0.2.3",
     "@stdlib/complex-dtype": "^0.2.3",
-    "@stdlib/types": "^0.4.3"
+    "@stdlib/types": "^0.5.1"
   },
   "devDependencies": {
     "@stdlib/array-bool": "^0.1.2",
