@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-15)
+## Unreleased (2026-08-30)
+
+<section class="features">
+
+### Features
+
+-   [`acbf27e`](https://github.com/stdlib-js/stdlib/commit/acbf27eda949e3828ade6fd30bcec8a27e5bdd15) - add float16 dtype support to `array/from-scalar` [(#14621)](https://github.com/stdlib-js/stdlib/pull/14621)
+
+</section>
+
+<!-- /.features -->
 
 <section class="bug-fixes">
 
@@ -22,6 +32,7 @@
 
 <details>
 
+-   [`acbf27e`](https://github.com/stdlib-js/stdlib/commit/acbf27eda949e3828ade6fd30bcec8a27e5bdd15) - **feat:** add float16 dtype support to `array/from-scalar` [(#14621)](https://github.com/stdlib-js/stdlib/pull/14621) _(by Samarth Kolarkar, Gururaj Gurram)_
 -   [`00885d3`](https://github.com/stdlib-js/stdlib/commit/00885d3e6afd8118ce2b6e5f7a1c544d5b6d4ffb) - **bench:** refactor to use string interpolation in `array` [(#11411)](https://github.com/stdlib-js/stdlib/pull/11411) _(by Karan Anand, Athan Reines)_
 -   [`72cadc5`](https://github.com/stdlib-js/stdlib/commit/72cadc507e082900aded8d025d0b65048fa66675) - **docs:** fix `Complex64` import in `array/from-scalar` [(#12038)](https://github.com/stdlib-js/stdlib/pull/12038) _(by Karan Anand)_
 -   [`2d234cc`](https://github.com/stdlib-js/stdlib/commit/2d234cc858ceeea867610d7c86dd309766990dcd) - **fix:** use `empty` instead of `zeros` in `array/from-scalar` [(#11628)](https://github.com/stdlib-js/stdlib/pull/11628) _(by Karan Anand)_
@@ -36,10 +47,12 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Gururaj Gurram
 -   Karan Anand
+-   Samarth Kolarkar
 
 </section>
 
