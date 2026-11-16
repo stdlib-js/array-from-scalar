@@ -1,0 +1,5 @@
+"use strict";var l=function(i,r){return function(){try{return r||i((r={exports:{}}).exports,r),r.exports}catch(t){throw (r=0, t)}};};var u=l(function(T,v){
+var n=require('@stdlib/array-base-assert-is-complex-floating-point-data-type/dist'),p=require('@stdlib/assert-is-number/dist').isPrimitive,f=require('@stdlib/assert-is-complex-like/dist'),q=require('@stdlib/assert-is-boolean/dist').isPrimitive,c=require('@stdlib/array-base-assert-is-accessor-array/dist'),g=require('@stdlib/array-base-accessor-setter/dist'),m=require('@stdlib/array-base-setter/dist'),y=require('@stdlib/array-empty/dist'),L=require('@stdlib/complex-dtype/dist'),o=require('@stdlib/array-defaults/dist'),_=o.get("dtypes.real_floating_point"),d=o.get("dtypes.complex_floating_point"),A=o.get("dtypes.boolean");function x(i){var r,t,s,e,a;return r=p(i),arguments.length<2?r?e=_:q(i)?e=A:f(i)?(e=L(i),e===null&&(e=d)):e="generic":e=arguments[1],t=y(1,e),r&&n(e)?a=[i,0]:a=i,c(t)?s=g(e):s=m(e),s(t,0,a),t}v.exports=x
+});var D=u();module.exports=D;
+/** @license Apache-2.0 */
+//# sourceMappingURL=index.js.map
